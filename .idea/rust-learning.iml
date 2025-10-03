@@ -8,12 +8,24 @@
       <sourceFolder url="file://$MODULE_DIR$/borrow/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ownership/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/enumeration/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/options/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplifid_control_flow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplified_control_flow/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/hellorust/target" />
       <excludeFolder url="file://$MODULE_DIR$/basic_concept/target" />
       <excludeFolder url="file://$MODULE_DIR$/borrow/target" />
       <excludeFolder url="file://$MODULE_DIR$/ownership/target" />
       <excludeFolder url="file://$MODULE_DIR$/slice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/structure/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rectangles/target" />
+      <excludeFolder url="file://$MODULE_DIR$/enumeration/target" />
+      <excludeFolder url="file://$MODULE_DIR$/options/target" />
+      <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/simplified_control_flow/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
