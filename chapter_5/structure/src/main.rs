@@ -27,13 +27,13 @@ fn main() {
     println!("{}", user1.sign_in_count);
     println!("{}", user2.username);
 
-    let black = Color(0, 0, 0);
+    let _black = Color(0, 0, 0);
     let origin = Point(1, 2, 3);
     // 与元组不同的是，解构元组结构体时必须写明结构体的类型。
     let Point(x, y, z) = origin;
     println!("x: {}, y: {}, z: {}", x, y, z);
 
-    let subject = AlwaysEqual;
+    let _subject = AlwaysEqual;
 }
 
 fn build_user(email: String, username: String) -> User {

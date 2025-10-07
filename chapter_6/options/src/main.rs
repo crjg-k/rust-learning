@@ -1,7 +1,7 @@
 fn main() {
     let five = Some(5);
-    let six = plus_one(five);
-    let none = plus_one(None);
+    let _six = plus_one(five);
+    let _none = plus_one(None);
 
     let dice_roll = 9;
     match dice_roll {
@@ -27,5 +27,5 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
 
 fn add_fancy_hat() {}
 fn remove_fancy_hat() {}
-fn move_player(num_spaces: u8) {}
+fn move_player(_num_spaces: u8) {}
 fn reroll() {}

@@ -22,6 +22,21 @@ fn main() {
     // 此位置之后 r1 和 r2 不再使用
     let r3 = &mut s; // 没问题
     println!("{r3}");
+
+    let mut a1 = 5;
+    let a2 = &mut a1;
+    *a2 = 9;
+    {
+        // let val_a2 = *a2; // 拷贝一份
+        // println!("a1 = {}, a2 = {}", a1, val_a2); // ✅ 可以
+        // println!("a1 = {:p}, a2 = {:p}", &a1, &val_a2); //
+    }
+    {
+        println!("a2 points {:p}", a2);
+        println!("a2 = {}", *a2);
+        println!("a1 addr {:p}", &a1);
+        println!("a1 = {}", a1);
+    }
 }
 
 fn calculate_length(s: &String) -> usize {
