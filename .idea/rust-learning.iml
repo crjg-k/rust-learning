@@ -24,6 +24,13 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter_8/vector/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_9/Result/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_9/result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_10/genericity/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_10/lifecycle/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_10/traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_11/test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_11/test_control/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_11/test_arch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_11/test_arch/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_1/hellorust/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2/guessing_game/target" />
@@ -46,6 +53,12 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter_8/vector/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_9/Result/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_9/result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_10/genericity/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_10/lifecycle/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_10/traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_11/test/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_11/test_control/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_11/test_arch/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

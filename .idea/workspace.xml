@@ -94,56 +94,50 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_10/genericity/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_10/genericity">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_10/traits/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_10/traits">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_10/lifecycle/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_10/lifecycle">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_11/test">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test_control/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_11/test_control">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test_arch/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_11/test_arch">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 07.[structure], 08.[rectangles], 09.[enumeration], 10.[options], 11.[simplified_control_flow]">
-      <change afterPath="$PROJECT_DIR$/chapter_7/backyard/src/garden/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_7/backyard/src/garden/vegetables.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_7/separate_files/src/front_of_house/hosting.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_7/separate_files/src/front_of_house/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_9/result/username.txt" afterDir="false" />
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories">
+      <change afterPath="$PROJECT_DIR$/chapter_11/test_arch/tests/common/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_11/test_arch/tests/integration_test.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_concept/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_3/basic_concept/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_concept/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_3/basic_concept/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_concept/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_3/basic_concept/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borrow/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/borrow/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borrow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/borrow/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borrow/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/borrow/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enumeration/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/enumeration/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enumeration/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/enumeration/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enumeration/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/enumeration/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellorust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/hellorust/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellorust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/hellorust/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellorust/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1/hellorust/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/options/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/options/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/options/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ownership/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/ownership/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ownership/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/ownership/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ownership/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/ownership/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangles/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/rectangles/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangles/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/rectangles/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangles/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/rectangles/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplified_control_flow/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/simplified_control_flow/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplified_control_flow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/simplified_control_flow/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplified_control_flow/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_6/simplified_control_flow/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/slice/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/slice/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/slice/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/structure/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/structure/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/structure/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:test" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -171,41 +165,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cargo.Run backyard.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run basic_concept.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run borrow.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run enumeration.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run guessing_game.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run hashmap.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run hellorust.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run ownership.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run rectangles.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run result.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run simplifid_control_flow.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run simplified_control_flow.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run slice.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run string.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run structure.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run vector.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/crjg/rust/rust-learning/chapter_8/vector&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Build test [test].executor": "Run",
+    "Cargo.Run backyard.executor": "Run",
+    "Cargo.Run basic_concept.executor": "Run",
+    "Cargo.Run borrow.executor": "Run",
+    "Cargo.Run enumeration.executor": "Run",
+    "Cargo.Run genericity.executor": "Run",
+    "Cargo.Run guessing_game.executor": "Run",
+    "Cargo.Run hashmap.executor": "Run",
+    "Cargo.Run hellorust.executor": "Run",
+    "Cargo.Run lifecycle.executor": "Run",
+    "Cargo.Run ownership.executor": "Run",
+    "Cargo.Run rectangles.executor": "Run",
+    "Cargo.Run result.executor": "Run",
+    "Cargo.Run simplifid_control_flow.executor": "Run",
+    "Cargo.Run simplified_control_flow.executor": "Run",
+    "Cargo.Run slice.executor": "Run",
+    "Cargo.Run string.executor": "Run",
+    "Cargo.Run structure.executor": "Run",
+    "Cargo.Run traits.executor": "Run",
+    "Cargo.Run vector.executor": "Run",
+    "Cargo.Test it_adds_two.executor": "Run",
+    "Cargo.Test lib::tests.executor": "Run",
+    "Cargo.Test tests1.executor": "Run",
+    "Cargo.Test tests1::another.executor": "Run",
+    "Cargo.Test tests1::exploration.executor": "Run",
+    "Cargo.Test tests1::it_works.executor": "Run",
+    "Cargo.Test tests2::larger_can_hold_smaller.executor": "Run",
+    "Cargo.Test tests2::smaller_cannot_hold_larger.executor": "Run",
+    "Cargo.Test tests4::greeting_contains_name.executor": "Run",
+    "Cargo.Test tests4::greeting_contains_name2.executor": "Run",
+    "Cargo.Test tests5.executor": "Debug",
+    "Cargo.Test tests5::greater_than_100.executor": "Run",
+    "Cargo.Test tests5::greater_than_100_2.executor": "Run",
+    "Cargo.Test tests::another.executor": "Run",
+    "Cargo.Test tests::exploration.executor": "Run",
+    "Cargo.Test tests::it_adds_two.executor": "Run",
+    "Cargo.Test tests::it_works.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "last_opened_file_path": "/home/crjg/rust/rust-learning/chapter_8/vector",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
@@ -213,23 +228,24 @@
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1809896" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.1809896" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19296876" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.19296876" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33028847" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33028847" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.8802885" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.8802885" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.33028847" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.33028847" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.33028847" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.33028847" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.33028847" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.33028847" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3139423" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.2502604" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.2502604" />
       <window_info anchor="right" id="Database" order="2" weight="0.2502604" />
@@ -249,10 +265,11 @@
       <recent name="$PROJECT_DIR$/chapter_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run result">
-    <configuration name="Run borrow" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package borrow --bin borrow" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/borrow" />
+  <component name="RunManager" selected="Cargo.Test it_adds_two">
+    <configuration name="Build test [test]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="build --package test --lib" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -267,9 +284,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run hashmap" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package hashmap --bin hashmap" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/hashmap" />
+    <configuration name="Test it_adds_two" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package test_arch --test integration_test it_adds_two -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_arch" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -284,9 +301,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run result" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package result --bin result" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_9/result" />
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="test" />
+      <option name="command" value="test --package test_control --lib tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_control" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -301,9 +319,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run string" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package string --bin string" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/string" />
+    <configuration name="Test tests1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package test_control --lib tests1" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_control" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -318,9 +336,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run vector" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package vector --bin vector" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/vector" />
+    <configuration name="Test tests1::another" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package test --lib tests1::another -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -337,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run result" />
-        <item itemvalue="Cargo.Run hashmap" />
-        <item itemvalue="Cargo.Run string" />
-        <item itemvalue="Cargo.Run borrow" />
-        <item itemvalue="Cargo.Run vector" />
+        <item itemvalue="Cargo.Test it_adds_two" />
+        <item itemvalue="Cargo.Test tests1" />
+        <item itemvalue="Cargo.Test lib::tests" />
+        <item itemvalue="Cargo.Build test [test]" />
+        <item itemvalue="Cargo.Test tests1::another" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +393,13 @@
       <workItem from="1759633593033" duration="5279000" />
       <workItem from="1759654060494" duration="5156000" />
       <workItem from="1759668873671" duration="5802000" />
-      <workItem from="1759844916385" duration="828000" />
+      <workItem from="1759844916385" duration="8932000" />
+      <workItem from="1759905584942" duration="1414000" />
+      <workItem from="1759976820387" duration="56000" />
+      <workItem from="1759993219607" duration="3039000" />
+      <workItem from="1760009654712" duration="4242000" />
+      <workItem from="1760019264432" duration="1580000" />
+      <workItem from="1760021425755" duration="2566000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -393,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759499494441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories">
+      <option name="closed" value="true" />
+      <created>1759845998925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759845998925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +445,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]" />
     <MESSAGE value="add 07.[structure], 08.[rectangles], 09.[enumeration], 10.[options], 11.[simplified_control_flow]" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 07.[structure], 08.[rectangles], 09.[enumeration], 10.[options], 11.[simplified_control_flow]" />
+    <MESSAGE value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
