@@ -141,18 +141,17 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]">
-      <change afterPath="$PROJECT_DIR$/chapter_12/minigrep/poem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 25.[minigrep], 26.[closures], 27.[iterators],">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:test" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -180,69 +179,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Build test [test].executor": "Run",
-    "Cargo.Run backyard.executor": "Run",
-    "Cargo.Run basic_concept.executor": "Run",
-    "Cargo.Run borrow.executor": "Run",
-    "Cargo.Run closures.executor": "Run",
-    "Cargo.Run enumeration.executor": "Run",
-    "Cargo.Run genericity.executor": "Run",
-    "Cargo.Run guessing_game.executor": "Run",
-    "Cargo.Run hashmap.executor": "Run",
-    "Cargo.Run hellorust.executor": "Run",
-    "Cargo.Run iterators.executor": "Run",
-    "Cargo.Run lifecycle.executor": "Run",
-    "Cargo.Run minigrep.executor": "Run",
-    "Cargo.Run ownership.executor": "Run",
-    "Cargo.Run rectangles.executor": "Run",
-    "Cargo.Run result.executor": "Run",
-    "Cargo.Run simplifid_control_flow.executor": "Run",
-    "Cargo.Run simplified_control_flow.executor": "Run",
-    "Cargo.Run slice.executor": "Run",
-    "Cargo.Run string.executor": "Run",
-    "Cargo.Run structure.executor": "Run",
-    "Cargo.Run traits.executor": "Run",
-    "Cargo.Run vector.executor": "Run",
-    "Cargo.Test it_adds_two.executor": "Run",
-    "Cargo.Test iterator_sum.executor": "Run",
-    "Cargo.Test lib::tests.executor": "Run",
-    "Cargo.Test tests1.executor": "Run",
-    "Cargo.Test tests1::another.executor": "Run",
-    "Cargo.Test tests1::exploration.executor": "Run",
-    "Cargo.Test tests1::it_works.executor": "Run",
-    "Cargo.Test tests2::larger_can_hold_smaller.executor": "Run",
-    "Cargo.Test tests2::smaller_cannot_hold_larger.executor": "Run",
-    "Cargo.Test tests4::greeting_contains_name.executor": "Run",
-    "Cargo.Test tests4::greeting_contains_name2.executor": "Run",
-    "Cargo.Test tests5.executor": "Debug",
-    "Cargo.Test tests5::greater_than_100.executor": "Run",
-    "Cargo.Test tests5::greater_than_100_2.executor": "Run",
-    "Cargo.Test tests::another.executor": "Run",
-    "Cargo.Test tests::case_insensitive.executor": "Run",
-    "Cargo.Test tests::exploration.executor": "Run",
-    "Cargo.Test tests::filters_by_size.executor": "Run",
-    "Cargo.Test tests::it_adds_two.executor": "Run",
-    "Cargo.Test tests::it_works.executor": "Run",
-    "Cargo.Test tests::one_result.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "last_opened_file_path": "/home/crjg/rust/rust-learning/chapter_8/vector",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "language.rust.cargo.check",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Build test [test].executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run backyard.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run basic_concept.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run borrow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run closures.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run enumeration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run genericity.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run guessing_game.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run hashmap.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run hellorust.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run lifecycle.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run minigrep.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run ownership.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run rectangles.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run result.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run simplifid_control_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run simplified_control_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run slice.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run string.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run structure.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run traits.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run vector.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test it_adds_two.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test iterator_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test lib::tests.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::another.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::exploration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::it_works.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests2::larger_can_hold_smaller.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests2::smaller_cannot_hold_larger.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests4::greeting_contains_name.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests4::greeting_contains_name2.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests5.executor&quot;: &quot;Debug&quot;,
+    &quot;Cargo.Test tests5::greater_than_100.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests5::greater_than_100_2.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::another.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::case_insensitive.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::exploration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::filters_by_size.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::it_adds_two.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::it_works.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::one_result.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/crjg/rust/rust-learning/chapter_8/vector&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
@@ -256,13 +255,13 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="File Transfer" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.8802885" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.8802885" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.50432694" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.33028847" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.8802885" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.33028847" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.33028847" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.33028847" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.33028847" />
@@ -287,7 +286,7 @@
       <recent name="$PROJECT_DIR$/chapter_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test tests::filters_by_size">
+  <component name="RunManager" selected="Cargo.Run minigrep">
     <configuration name="Run closures" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package closures --bin closures" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/closures" />
@@ -379,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run minigrep" />
         <item itemvalue="Cargo.Test tests::filters_by_size" />
         <item itemvalue="Cargo.Run iterators" />
         <item itemvalue="Cargo.Test iterator_sum" />
         <item itemvalue="Cargo.Run closures" />
-        <item itemvalue="Cargo.Run minigrep" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +427,8 @@
       <workItem from="1760078538916" duration="4490000" />
       <workItem from="1760102763648" duration="1643000" />
       <workItem from="1760173597316" duration="2748000" />
-      <workItem from="1760187429837" duration="4273000" />
+      <workItem from="1760187429837" duration="4675000" />
+      <workItem from="1760196699425" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -462,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760025527881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add 25.[minigrep], 26.[closures], 27.[iterators],">
+      <option name="closed" value="true" />
+      <created>1760192860436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760192860436</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +492,8 @@
     <MESSAGE value="add 07.[structure], 08.[rectangles], 09.[enumeration], 10.[options], 11.[simplified_control_flow]" />
     <MESSAGE value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
     <MESSAGE value="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]" />
+    <MESSAGE value="add 25.[minigrep], 26.[closures], 27.[iterators]," />
+    <option name="LAST_COMMIT_MESSAGE" value="add 25.[minigrep], 26.[closures], 27.[iterators]," />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
