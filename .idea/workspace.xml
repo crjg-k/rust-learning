@@ -124,11 +124,26 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_12/minigrep/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_12/minigrep">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_13/closures/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_13/closures">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_13/iterators/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_13/iterators">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories">
-      <change afterPath="$PROJECT_DIR$/chapter_11/test_arch/tests/common/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_11/test_arch/tests/integration_test.rs" afterDir="false" />
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]">
+      <change afterPath="$PROJECT_DIR$/chapter_12/minigrep/poem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -171,12 +186,15 @@
     "Cargo.Run backyard.executor": "Run",
     "Cargo.Run basic_concept.executor": "Run",
     "Cargo.Run borrow.executor": "Run",
+    "Cargo.Run closures.executor": "Run",
     "Cargo.Run enumeration.executor": "Run",
     "Cargo.Run genericity.executor": "Run",
     "Cargo.Run guessing_game.executor": "Run",
     "Cargo.Run hashmap.executor": "Run",
     "Cargo.Run hellorust.executor": "Run",
+    "Cargo.Run iterators.executor": "Run",
     "Cargo.Run lifecycle.executor": "Run",
+    "Cargo.Run minigrep.executor": "Run",
     "Cargo.Run ownership.executor": "Run",
     "Cargo.Run rectangles.executor": "Run",
     "Cargo.Run result.executor": "Run",
@@ -188,6 +206,7 @@
     "Cargo.Run traits.executor": "Run",
     "Cargo.Run vector.executor": "Run",
     "Cargo.Test it_adds_two.executor": "Run",
+    "Cargo.Test iterator_sum.executor": "Run",
     "Cargo.Test lib::tests.executor": "Run",
     "Cargo.Test tests1.executor": "Run",
     "Cargo.Test tests1::another.executor": "Run",
@@ -201,9 +220,12 @@
     "Cargo.Test tests5::greater_than_100.executor": "Run",
     "Cargo.Test tests5::greater_than_100_2.executor": "Run",
     "Cargo.Test tests::another.executor": "Run",
+    "Cargo.Test tests::case_insensitive.executor": "Run",
     "Cargo.Test tests::exploration.executor": "Run",
+    "Cargo.Test tests::filters_by_size.executor": "Run",
     "Cargo.Test tests::it_adds_two.executor": "Run",
     "Cargo.Test tests::it_works.executor": "Run",
+    "Cargo.Test tests::one_result.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -228,8 +250,8 @@
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19296876" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.19296876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296876" />
+      <window_info id="Commit" order="1" weight="0.19296876" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -237,14 +259,14 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.8802885" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.8802885" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.50432694" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.33028847" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33028847" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.8802885" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.33028847" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.33028847" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.33028847" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3139423" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.33028847" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.2502604" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.2502604" />
@@ -265,11 +287,28 @@
       <recent name="$PROJECT_DIR$/chapter_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test it_adds_two">
-    <configuration name="Build test [test]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo.Test tests::filters_by_size">
+    <configuration name="Run closures" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package closures --bin closures" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/closures" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run iterators" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="buildProfileId" value="dev" />
-      <option name="command" value="build --package test --lib" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test" />
+      <option name="command" value="run --package iterators --bin iterators" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -284,9 +323,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test it_adds_two" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package test_arch --test integration_test it_adds_two -- --exact" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_arch" />
+    <configuration name="Run minigrep" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package minigrep --bin minigrep" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_12/minigrep" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -301,10 +341,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test iterator_sum" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package test_control --lib tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_control" />
+      <option name="command" value="test --package iterators --bin iterators iterator_sum -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -319,26 +359,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package test_control --lib tests1" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test_control" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test tests1::another" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package test --lib tests1::another -- --exact" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_11/test" />
+    <configuration name="Test tests::filters_by_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="test" />
+      <option name="command" value="test --package iterators --bin iterators tests::filters_by_size -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -355,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test it_adds_two" />
-        <item itemvalue="Cargo.Test tests1" />
-        <item itemvalue="Cargo.Test lib::tests" />
-        <item itemvalue="Cargo.Build test [test]" />
-        <item itemvalue="Cargo.Test tests1::another" />
+        <item itemvalue="Cargo.Test tests::filters_by_size" />
+        <item itemvalue="Cargo.Run iterators" />
+        <item itemvalue="Cargo.Test iterator_sum" />
+        <item itemvalue="Cargo.Run closures" />
+        <item itemvalue="Cargo.Run minigrep" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +423,12 @@
       <workItem from="1759993219607" duration="3039000" />
       <workItem from="1760009654712" duration="4242000" />
       <workItem from="1760019264432" duration="1580000" />
-      <workItem from="1760021425755" duration="2566000" />
+      <workItem from="1760021425755" duration="2848000" />
+      <workItem from="1760070069494" duration="3090000" />
+      <workItem from="1760078538916" duration="4490000" />
+      <workItem from="1760102763648" duration="1643000" />
+      <workItem from="1760173597316" duration="2748000" />
+      <workItem from="1760187429837" duration="4273000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -425,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759845998925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]">
+      <option name="closed" value="true" />
+      <created>1760025527881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760025527881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +483,8 @@
     <MESSAGE value="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]" />
     <MESSAGE value="add 07.[structure], 08.[rectangles], 09.[enumeration], 10.[options], 11.[simplified_control_flow]" />
     <MESSAGE value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
+    <MESSAGE value="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
