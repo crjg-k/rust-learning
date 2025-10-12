@@ -139,12 +139,33 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_14/doc/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_14/doc">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_14/art/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_14/art">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/chapter_14/add/Cargo.toml">
+      <package file="$PROJECT_DIR$/chapter_14/add/add_one">
+        <feature name="default" enabled="true" />
+      </package>
+      <package file="$PROJECT_DIR$/chapter_14/add/adder">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 25.[minigrep], 26.[closures], 27.[iterators],">
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="modify and optimize the 25th module [minigrep]">
+      <change afterPath="$PROJECT_DIR$/chapter_14/add/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_14/art/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_12/minigrep/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +203,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Cargo.Build test [test].executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Doctest of add_one (line 10).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run adder.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run art.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run backyard.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run basic_concept.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run borrow.executor&quot;: &quot;Run&quot;,
@@ -248,17 +272,17 @@
       <window_info id="Merge Requests" />
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
-      <window_info id="Pull Requests" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296876" />
       <window_info id="Commit" order="1" weight="0.19296876" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
+      <window_info id="Pull Requests" order="3" weight="0.19296876" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="File Transfer" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.8802885" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.8802885" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.50432694" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.8802885" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.33028847" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.33028847" />
@@ -286,10 +310,11 @@
       <recent name="$PROJECT_DIR$/chapter_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run minigrep">
-    <configuration name="Run closures" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package closures --bin closures" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/closures" />
+  <component name="RunManager" selected="Cargo.Run adder">
+    <configuration name="Doctest of add_one (line 10)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="test" />
+      <option name="command" value="test --package doc --doc &quot;add_one\ (line\ 10)&quot;" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/doc" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -304,10 +329,80 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run iterators" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Doctest of add_one (line 10)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="test" />
+      <option name="command" value="test --package doc --doc &quot;add_one\ (line\ 10)&quot;" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/doc" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run adder" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package adder --bin adder" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/add" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run adder" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package adder --bin adder" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/add" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run art" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="buildProfileId" value="dev" />
-      <option name="command" value="run --package iterators --bin iterators" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
+      <option name="command" value="run --package art --bin art" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/art" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run art" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package art --bin art" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/art" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -340,9 +435,27 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test iterator_sum" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Run minigrep" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package minigrep --bin minigrep" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_12/minigrep" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test tests::filters_by_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package iterators --bin iterators iterator_sum -- --exact" />
+      <option name="command" value="test --package iterators --bin iterators tests::filters_by_size -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -378,11 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run adder" />
+        <item itemvalue="Cargo.Run art" />
+        <item itemvalue="Cargo.Doctest of add_one (line 10)" />
         <item itemvalue="Cargo.Run minigrep" />
         <item itemvalue="Cargo.Test tests::filters_by_size" />
-        <item itemvalue="Cargo.Run iterators" />
-        <item itemvalue="Cargo.Test iterator_sum" />
-        <item itemvalue="Cargo.Run closures" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +541,9 @@
       <workItem from="1760102763648" duration="1643000" />
       <workItem from="1760173597316" duration="2748000" />
       <workItem from="1760187429837" duration="4675000" />
-      <workItem from="1760196699425" duration="3286000" />
+      <workItem from="1760196699425" duration="3500000" />
+      <workItem from="1760247723810" duration="9751000" />
+      <workItem from="1760260978337" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -470,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760192860436</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify and optimize the 25th module [minigrep]">
+      <option name="closed" value="true" />
+      <created>1760201972415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760201972415</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +616,8 @@
     <MESSAGE value="add 12.[backyard], 13.[restaurant], 14.[separate_files], 15.[hashmap], 16.[string], 17.[vector], 18.[result] and restructure the project directories" />
     <MESSAGE value="add 19.[genericity], 20.[traits], 21.[lifecycle], 22.[test], 23.[test_control], 24.[test_arch]" />
     <MESSAGE value="add 25.[minigrep], 26.[closures], 27.[iterators]," />
-    <option name="LAST_COMMIT_MESSAGE" value="add 25.[minigrep], 26.[closures], 27.[iterators]," />
+    <MESSAGE value="modify and optimize the 25th module [minigrep]" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify and optimize the 25th module [minigrep]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,9 @@
+[package]
+name = "adder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# cargo 并不假定工作空间中的 Crates 会相互依赖，所以需要显式表明工作空间中 crate 的依赖关系。
+add_one = { path = "../add_one" }
+rand = "0.8.5"

@@ -34,6 +34,10 @@
       <sourceFolder url="file://$MODULE_DIR$/chapter_12/minigrep/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_13/closures/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/chapter_13/iterators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_14/add/add_one/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_14/add/adder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_14/art/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter_14/doc/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_1/hellorust/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_2/guessing_game/target" />
@@ -65,6 +69,9 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter_12/minigrep/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_13/closures/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_13/iterators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_14/add/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_14/art/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter_14/doc/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

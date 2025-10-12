@@ -1,0 +1,5 @@
+[workspace]
+resolver = "3"
+members = ["add_one","adder"]
+
+# worksapce 中的抽象toml不允许存在[dependencies]一项
