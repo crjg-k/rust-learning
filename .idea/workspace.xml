@@ -4,168 +4,269 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/chapter_9/result/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_9/result">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_1/hellorust/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_1/hellorust">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_2/guessing_game/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_2/guessing_game">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_2/guessing_game">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_3/basic_concept/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_3/basic_concept">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_3/basic_concept/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_3/basic_concept">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/borrow/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/borrow">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_4/borrow/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_4/borrow">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/ownership/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/ownership">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_4/ownership/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_4/ownership">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/slice/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/slice">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_4/slice/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_4/slice">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/rectangles/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/rectangles">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_5/rectangles/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_5/rectangles">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/structure/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/structure">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_5/structure/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_5/structure">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/enumeration/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/enumeration">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_6/enumeration/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_6/enumeration">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/options/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/options">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_6/options/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_6/options">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/simplified_control_flow/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/simplified_control_flow">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_6/simplified_control_flow/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_6/simplified_control_flow">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_7/backyard/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_7/backyard">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/restaurant/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/restaurant">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_7/restaurant/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_7/restaurant">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_7/separate_files/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_7/separate_files">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/hashmap/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/hashmap">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_8/hashmap/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_8/hashmap">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/string/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/string">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_8/string/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_8/string">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/vector/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/vector">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_8/vector/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_8/vector">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_10/genericity/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_10/genericity">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/genericity/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/genericity">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_10/traits/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_10/traits">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/lifecycle/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/lifecycle">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_10/lifecycle/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_10/lifecycle">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/traits/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/traits">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_11/test">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test_control/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_11/test_control">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_11/test_arch/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_11/test_arch">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_control/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_control">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_12/minigrep/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_12/minigrep">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_13/closures/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_13/closures">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/closures/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/closures">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_13/iterators/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_13/iterators">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/iterators/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/iterators">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_14/doc/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_14/doc">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/add_one">
+        <feature name="default" enabled="true" />
+      </package>
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/adder">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_14/art/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_14/art">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
-    <cargoProject FILE="$PROJECT_DIR$/chapter_14/add/Cargo.toml">
-      <package file="$PROJECT_DIR$/chapter_14/add/add_one">
-        <feature name="default" enabled="true" />
-      </package>
-      <package file="$PROJECT_DIR$/chapter_14/add/adder">
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/doc/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/doc">
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="modify and optimize the 25th module [minigrep]">
-      <change afterPath="$PROJECT_DIR$/chapter_14/add/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_14/art/src/main.rs" afterDir="false" />
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 01.[hello-rust]">
       <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_1/hellorust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_1/hellorust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_1/hellorust/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/genericity/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/genericity/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/genericity/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/genericity/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/genericity/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/genericity/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/lifecycle/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/lifecycle/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/lifecycle/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/lifecycle/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/lifecycle/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/lifecycle/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/traits/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/traits/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/traits/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/traits/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10/traits/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_10/traits/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_arch/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_arch/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_arch/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_arch/tests/common/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/tests/common/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_arch/tests/integration_test.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_arch/tests/integration_test.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_control/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_control/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_control/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_control/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_11/test_control/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_11/test_control/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/poem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/poem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_12/minigrep/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_12/minigrep/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/closures/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/closures/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/closures/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/closures/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/closures/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/closures/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/iterators/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/iterators/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/iterators/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/iterators/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_13/iterators/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_13/iterators/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/add_one/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/add_one/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/add_one/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/add_one/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/adder/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/adder/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/add/adder/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/add/adder/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/art/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/art/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/art/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/art/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/doc/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/doc/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/doc/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/doc/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_14/doc/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/doc/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_2/guessing_game/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_2/guessing_game/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_2/guessing_game/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_2/guessing_game/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_3/basic_concept/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_3/basic_concept/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_3/basic_concept/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_3/basic_concept/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_3/basic_concept/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_3/basic_concept/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/borrow/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/borrow/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/borrow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/borrow/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/borrow/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/borrow/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/ownership/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/ownership/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/ownership/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/ownership/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/ownership/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/ownership/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/slice/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/slice/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/slice/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/slice/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_4/slice/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_4/slice/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/rectangles/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/rectangles/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/rectangles/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/rectangles/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/rectangles/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/rectangles/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/structure/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/structure/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/structure/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/structure/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_5/structure/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_5/structure/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/enumeration/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/enumeration/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/enumeration/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/enumeration/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/enumeration/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/enumeration/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/options/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/options/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/options/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/options/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/options/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/options/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/simplified_control_flow/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/simplified_control_flow/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/simplified_control_flow/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/simplified_control_flow/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_6/simplified_control_flow/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_6/simplified_control_flow/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/backyard/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/backyard/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/backyard/src/garden/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/src/garden/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/backyard/src/garden/vegetables.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/src/garden/vegetables.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/backyard/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/backyard/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/restaurant/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/restaurant/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/restaurant/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/restaurant/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/restaurant/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/restaurant/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/separate_files/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/separate_files/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/separate_files/src/front_of_house/hosting.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/src/front_of_house/hosting.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/separate_files/src/front_of_house/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/src/front_of_house/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_7/separate_files/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_7/separate_files/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/hashmap/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/hashmap/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/hashmap/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/hashmap/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/hashmap/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/hashmap/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/string/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/string/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/string/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/string/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/string/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/string/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/vector/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/vector/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/vector/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/vector/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_8/vector/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_8/vector/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/result/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/result/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/result/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/result/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/result/username.txt" beforeDir="false" afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result/username.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +305,10 @@
   &quot;keyToString&quot;: {
     &quot;Cargo.Build test [test].executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Doctest of add_one (line 10).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Box.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Drop.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run MyBox.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Rc.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run adder.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run art.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run backyard.executor&quot;: &quot;Run&quot;,
@@ -218,6 +323,7 @@
     &quot;Cargo.Run iterators.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run lifecycle.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run minigrep.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run mybox.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run ownership.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run rectangles.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run result.executor&quot;: &quot;Run&quot;,
@@ -254,15 +360,16 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/crjg/rust/rust-learning/chapter_8/vector&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/crjg/rust/rust-learning/The_Rust_Programming_Language/chapter_14/doc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.build.tool.cargo&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -272,49 +379,48 @@
       <window_info id="Merge Requests" />
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296876" />
-      <window_info id="Commit" order="1" weight="0.19296876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23203126" />
+      <window_info id="Commit" order="1" weight="0.23203126" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
-      <window_info id="Pull Requests" order="3" weight="0.19296876" />
+      <window_info id="Pull Requests" order="3" weight="0.32994792" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="File Transfer" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.8802885" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.8802885" />
-      <window_info anchor="bottom" id="Services" order="4" weight="0.33028847" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.33028847" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33028847" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.33028847" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.33028847" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.33028847" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.33028847" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.87936044" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.32994187" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32994187" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.33028847" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.33028847" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="right" id="Notifications" order="0" weight="0.2502604" />
-      <window_info anchor="right" id="AIAssistant" order="1" weight="0.2502604" />
-      <window_info anchor="right" id="Database" order="2" weight="0.2502604" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
-      <window_info anchor="right" id="RustCargo" order="6" weight="0.32994792" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.2502604" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.19296876" />
     </layout>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/The_Rust_Programming_Language" />
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/chapter_7" />
       <recent name="$PROJECT_DIR$/chapter_6" />
       <recent name="$PROJECT_DIR$/chapter_5" />
-      <recent name="$PROJECT_DIR$/chapter_4" />
-      <recent name="$PROJECT_DIR$/chapter_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run adder">
-    <configuration name="Doctest of add_one (line 10)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package doc --doc &quot;add_one\ (line\ 10)&quot;" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/doc" />
+  <component name="RunManager" selected="Cargo.Run art">
+    <configuration name="Run Drop" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package Drop --bin Drop" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_15/Drop" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -329,10 +435,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Doctest of add_one (line 10)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package doc --doc &quot;add_one\ (line\ 10)&quot;" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/doc" />
+    <configuration name="Run MyBox" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package MyBox --bin MyBox" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_15/MyBox" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -347,26 +452,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run adder" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package adder --bin adder" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/add" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run adder" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package adder --bin adder" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/add" />
+    <configuration name="Run Rc" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package Rc --bin Rc" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_15/Rc" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -382,9 +470,8 @@
       </method>
     </configuration>
     <configuration name="Run art" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="dev" />
       <option name="command" value="run --package art --bin art" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/art" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_14/art" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -399,82 +486,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run art" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="dev" />
-      <option name="command" value="run --package art --bin art" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_14/art" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run minigrep" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="dev" />
-      <option name="command" value="run --package minigrep --bin minigrep" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_12/minigrep" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run minigrep" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="dev" />
-      <option name="command" value="run --package minigrep --bin minigrep" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_12/minigrep" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test tests::filters_by_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package iterators --bin iterators tests::filters_by_size -- --exact" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test tests::filters_by_size" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="buildProfileId" value="test" />
-      <option name="command" value="test --package iterators --bin iterators tests::filters_by_size -- --exact" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/chapter_13/iterators" />
+    <configuration name="Run hellorust" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package hellorust --bin hellorust" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_1/hellorust" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -491,11 +505,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run adder" />
         <item itemvalue="Cargo.Run art" />
-        <item itemvalue="Cargo.Doctest of add_one (line 10)" />
-        <item itemvalue="Cargo.Run minigrep" />
-        <item itemvalue="Cargo.Test tests::filters_by_size" />
+        <item itemvalue="Cargo.Run hellorust" />
+        <item itemvalue="Cargo.Run Rc" />
+        <item itemvalue="Cargo.Run Drop" />
+        <item itemvalue="Cargo.Run MyBox" />
       </list>
     </recent_temporary>
   </component>
@@ -544,6 +558,10 @@
       <workItem from="1760196699425" duration="3500000" />
       <workItem from="1760247723810" duration="9751000" />
       <workItem from="1760260978337" duration="918000" />
+      <workItem from="1760323946624" duration="56000" />
+      <workItem from="1761372382338" duration="11180000" />
+      <workItem from="1761455692029" duration="1631000" />
+      <workItem from="1761457700208" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
