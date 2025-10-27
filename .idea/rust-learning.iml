@@ -43,6 +43,14 @@
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_8/vector/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_9/Result/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_9/result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Box/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Deref/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Cell/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Drop/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Rc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/RefCell/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/Weak/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/self_ref/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Box/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Drop/target" />
@@ -82,6 +90,14 @@
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_8/vector/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_9/Result/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_9/result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Box/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Deref/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Cell/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Drop/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/Rc/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/RefCell/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/Weak/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/self_ref/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
