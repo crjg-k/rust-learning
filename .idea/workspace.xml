@@ -192,9 +192,31 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/thread/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/thread">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/mutex/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/mutex">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/blog/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/blog">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/gui/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/gui">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="exchange the referenced book from [the rust programming language] to [rust course](https://course.rs) after finishing the chapter_14 of the former">
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 4.4[智能指针] and 4.5[循环引用和自引用]">
+      <change afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/blog/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/gui/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -247,16 +269,19 @@
     "Cargo.Run art.executor": "Run",
     "Cargo.Run backyard.executor": "Run",
     "Cargo.Run basic_concept.executor": "Run",
+    "Cargo.Run blog.executor": "Run",
     "Cargo.Run borrow.executor": "Run",
     "Cargo.Run closures.executor": "Run",
     "Cargo.Run enumeration.executor": "Run",
     "Cargo.Run genericity.executor": "Run",
     "Cargo.Run guessing_game.executor": "Run",
+    "Cargo.Run gui.executor": "Run",
     "Cargo.Run hashmap.executor": "Run",
     "Cargo.Run hellorust.executor": "Run",
     "Cargo.Run iterators.executor": "Run",
     "Cargo.Run lifecycle.executor": "Run",
     "Cargo.Run minigrep.executor": "Run",
+    "Cargo.Run mutex.executor": "Run",
     "Cargo.Run mybox.executor": "Run",
     "Cargo.Run ownership.executor": "Run",
     "Cargo.Run rectangles.executor": "Run",
@@ -267,6 +292,8 @@
     "Cargo.Run slice.executor": "Run",
     "Cargo.Run string.executor": "Run",
     "Cargo.Run structure.executor": "Run",
+    "Cargo.Run thread (1).executor": "Run",
+    "Cargo.Run thread.executor": "Run",
     "Cargo.Run traits.executor": "Run",
     "Cargo.Run vector.executor": "Run",
     "Cargo.Test it_adds_two.executor": "Run",
@@ -295,7 +322,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "last_opened_file_path": "/home/crjg/rust/rust-learning/The_Rust_Programming_Language/chapter_14/doc",
+    "last_opened_file_path": "/home/crjg/rust/rust-learning/The_Rust_Programming_Language/chapter_18/gui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -314,8 +341,8 @@
       <window_info id="Merge Requests" />
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23151042" />
-      <window_info id="Commit" order="1" weight="0.23151042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213542" />
+      <window_info id="Commit" order="1" weight="0.34557292" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
       <window_info id="Pull Requests" order="3" weight="0.32994792" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -325,11 +352,11 @@
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.39292637" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3619186" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3619186" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.39292637" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.39292637" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.3619186" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3619186" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.33028847" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33028847" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
@@ -352,7 +379,7 @@
       <recent name="$PROJECT_DIR$/chapter_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run Weak">
+  <component name="RunManager" selected="Cargo.Run blog">
     <configuration name="Run Cell" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package Cell --bin Cell" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_4/Cell" />
@@ -370,9 +397,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run Rc" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package Rc --bin Rc" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_4/Rc" />
+    <configuration name="Run blog" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package blog --bin blog" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/blog" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -387,9 +414,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run RefCell" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package RefCell --bin RefCell" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_4/RefCell" />
+    <configuration name="Run gui" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package gui --bin gui" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_17/gui" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -404,9 +431,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run Weak" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package Weak --bin Weak" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_5/Weak" />
+    <configuration name="Run mutex" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package mutex --bin mutex" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/mutex" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -421,9 +448,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run self_ref" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package self_ref --bin self_ref" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_5/self_ref" />
+    <configuration name="Run result" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package result --bin result" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -440,11 +467,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run Weak" />
-        <item itemvalue="Cargo.Run self_ref" />
-        <item itemvalue="Cargo.Run RefCell" />
+        <item itemvalue="Cargo.Run blog" />
+        <item itemvalue="Cargo.Run result" />
+        <item itemvalue="Cargo.Run gui" />
         <item itemvalue="Cargo.Run Cell" />
-        <item itemvalue="Cargo.Run Rc" />
+        <item itemvalue="Cargo.Run mutex" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +525,9 @@
       <workItem from="1761455692029" duration="1631000" />
       <workItem from="1761457700208" duration="1874000" />
       <workItem from="1761474381106" duration="4928000" />
-      <workItem from="1761542096333" duration="19186000" />
+      <workItem from="1761542096333" duration="19538000" />
+      <workItem from="1761621312427" duration="11354000" />
+      <workItem from="1761738937203" duration="6024000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -556,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761474567063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 4.4[智能指针] and 4.5[循环引用和自引用]">
+      <option name="closed" value="true" />
+      <created>1761569953829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761569953830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +618,8 @@
     <MESSAGE value="add 25.[minigrep], 26.[closures], 27.[iterators]," />
     <MESSAGE value="modify and optimize the 25th module [minigrep]" />
     <MESSAGE value="exchange the referenced book from [the rust programming language] to [rust course](https://course.rs) after finishing the chapter_14 of the former" />
-    <option name="LAST_COMMIT_MESSAGE" value="exchange the referenced book from [the rust programming language] to [rust course](https://course.rs) after finishing the chapter_14 of the former" />
+    <MESSAGE value="add 4.4[智能指针] and 4.5[循环引用和自引用]" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4.4[智能指针] and 4.5[循环引用和自引用]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

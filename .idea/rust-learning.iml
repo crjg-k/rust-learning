@@ -51,6 +51,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/RefCell/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/Weak/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/self_ref/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_6/thread/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_6/thread_local/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_16/mutex/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_16/thread/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/blog/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/gui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Box/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Drop/target" />
@@ -98,6 +105,13 @@
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_4/RefCell/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/Weak/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_5/self_ref/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_6/thread/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_6/thread_local/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_16/mutex/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_16/thread/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/blog/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/gui/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
