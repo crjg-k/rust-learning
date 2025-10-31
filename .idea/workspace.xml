@@ -212,11 +212,49 @@
         <feature name="default" enabled="true" />
       </package>
     </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/pattern/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/pattern">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/matching/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/matching">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/unsafe_superpower/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/unsafe_superpower">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/operate_override/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/operate_override">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/disambiguation/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/disambiguation">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/super_trait/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/super_trait">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+    <cargoProject FILE="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/newtype/Cargo.toml">
+      <package file="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/newtype">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 4.4[智能指针] and 4.5[循环引用和自引用]">
-      <change afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/blog/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/The_Rust_Programming_Language/chapter_18/gui/src/lib.rs" afterDir="false" />
+    <list default="true" id="d2b0ce30-12c6-4f8f-bca3-b7df7e3a46fc" name="Changes" comment="add 31.[thread], 32.[mutex], 33.[gui], 34.[blog]">
       <change beforePath="$PROJECT_DIR$/.idea/rust-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -253,96 +291,104 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Build test [test].executor": "Run",
-    "Cargo.Doctest of add_one (line 10).executor": "Run",
-    "Cargo.Run Box.executor": "Run",
-    "Cargo.Run Cell.executor": "Run",
-    "Cargo.Run Deref.executor": "Run",
-    "Cargo.Run Drop.executor": "Run",
-    "Cargo.Run MyBox.executor": "Run",
-    "Cargo.Run Rc.executor": "Run",
-    "Cargo.Run RefCell.executor": "Run",
-    "Cargo.Run Weak.executor": "Run",
-    "Cargo.Run adder.executor": "Run",
-    "Cargo.Run art.executor": "Run",
-    "Cargo.Run backyard.executor": "Run",
-    "Cargo.Run basic_concept.executor": "Run",
-    "Cargo.Run blog.executor": "Run",
-    "Cargo.Run borrow.executor": "Run",
-    "Cargo.Run closures.executor": "Run",
-    "Cargo.Run enumeration.executor": "Run",
-    "Cargo.Run genericity.executor": "Run",
-    "Cargo.Run guessing_game.executor": "Run",
-    "Cargo.Run gui.executor": "Run",
-    "Cargo.Run hashmap.executor": "Run",
-    "Cargo.Run hellorust.executor": "Run",
-    "Cargo.Run iterators.executor": "Run",
-    "Cargo.Run lifecycle.executor": "Run",
-    "Cargo.Run minigrep.executor": "Run",
-    "Cargo.Run mutex.executor": "Run",
-    "Cargo.Run mybox.executor": "Run",
-    "Cargo.Run ownership.executor": "Run",
-    "Cargo.Run rectangles.executor": "Run",
-    "Cargo.Run result.executor": "Run",
-    "Cargo.Run self_ref.executor": "Run",
-    "Cargo.Run simplifid_control_flow.executor": "Run",
-    "Cargo.Run simplified_control_flow.executor": "Run",
-    "Cargo.Run slice.executor": "Run",
-    "Cargo.Run string.executor": "Run",
-    "Cargo.Run structure.executor": "Run",
-    "Cargo.Run thread (1).executor": "Run",
-    "Cargo.Run thread.executor": "Run",
-    "Cargo.Run traits.executor": "Run",
-    "Cargo.Run vector.executor": "Run",
-    "Cargo.Test it_adds_two.executor": "Run",
-    "Cargo.Test iterator_sum.executor": "Run",
-    "Cargo.Test lib::tests.executor": "Run",
-    "Cargo.Test tests1.executor": "Run",
-    "Cargo.Test tests1::another.executor": "Run",
-    "Cargo.Test tests1::exploration.executor": "Run",
-    "Cargo.Test tests1::it_works.executor": "Run",
-    "Cargo.Test tests2::larger_can_hold_smaller.executor": "Run",
-    "Cargo.Test tests2::smaller_cannot_hold_larger.executor": "Run",
-    "Cargo.Test tests4::greeting_contains_name.executor": "Run",
-    "Cargo.Test tests4::greeting_contains_name2.executor": "Run",
-    "Cargo.Test tests5.executor": "Debug",
-    "Cargo.Test tests5::greater_than_100.executor": "Run",
-    "Cargo.Test tests5::greater_than_100_2.executor": "Run",
-    "Cargo.Test tests::another.executor": "Run",
-    "Cargo.Test tests::case_insensitive.executor": "Run",
-    "Cargo.Test tests::exploration.executor": "Run",
-    "Cargo.Test tests::filters_by_size.executor": "Run",
-    "Cargo.Test tests::it_adds_two.executor": "Run",
-    "Cargo.Test tests::it_works.executor": "Run",
-    "Cargo.Test tests::one_result.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "last_opened_file_path": "/home/crjg/rust/rust-learning/The_Rust_Programming_Language/chapter_18/gui",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "language.rust.build.tool.cargo",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Build test [test].executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Doctest of add_one (line 10).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Box.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Cell.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Deref.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Drop.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run MyBox.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Rc.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run RefCell.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run Weak.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run adder.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run advanced_trait.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run art.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run backyard.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run basic_concept.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run blog.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run borrow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run closures.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run disambiguation.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run enumeration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run genericity.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run guessing_game.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run gui.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run hashmap.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run hellorust.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run iterators.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run lifecycle.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run matching.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run minigrep.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run mutex.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run mybox.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run newtype.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run operate_override.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run ownership.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run rectangles.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run result.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run self_ref.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run simplifid_control_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run simplified_control_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run slice.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run string.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run structure.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run super_trait.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run thread (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run thread.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run traits.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run unsafe_superpower.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run vector.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test it_adds_two.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test iterator_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test lib::tests.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::another.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::exploration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests1::it_works.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests2::larger_can_hold_smaller.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests2::smaller_cannot_hold_larger.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests4::greeting_contains_name.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests4::greeting_contains_name2.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests5.executor&quot;: &quot;Debug&quot;,
+    &quot;Cargo.Test tests5::greater_than_100.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests5::greater_than_100_2.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::another.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::case_insensitive.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::exploration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::filters_by_size.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::it_adds_two.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::it_works.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test tests::one_result.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/crjg/rust/rust-learning/The_Rust_Programming_Language/chapter_18/gui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.build.tool.cargo&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
       <window_info id="Merge Requests" />
       <window_info id="Backup and Sync History" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213542" />
-      <window_info id="Commit" order="1" weight="0.34557292" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32994792" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.32994792" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.19973958" />
       <window_info id="Pull Requests" order="3" weight="0.32994792" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -352,11 +398,11 @@
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.87936044" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3619186" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3619186" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32994187" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.3619186" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3619186" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.32994187" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32994187" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.33028847" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.33028847" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
@@ -367,7 +413,7 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
-      <window_info anchor="right" id="RustCargo" order="6" weight="0.32994792" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.2502604" />
     </layout>
   </component>
   <component name="RecentsManager">
@@ -379,10 +425,27 @@
       <recent name="$PROJECT_DIR$/chapter_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run blog">
-    <configuration name="Run Cell" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package Cell --bin Cell" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/Rust_Course/chapter4_4/Cell" />
+  <component name="RunManager" selected="Cargo.Run newtype">
+    <configuration name="Run advanced_trait" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package advanced_trait --bin advanced_trait" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run advanced_trait" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package advanced_trait --bin advanced_trait" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -414,9 +477,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run gui" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package gui --bin gui" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_17/gui" />
+    <configuration name="Run disambiguation" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package disambiguation --bin disambiguation" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/disambiguation" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -431,9 +494,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run mutex" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package mutex --bin mutex" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_16/mutex" />
+    <configuration name="Run matching" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package matching --bin matching" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/matching" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -448,9 +511,77 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run result" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package result --bin result" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_9/result" />
+    <configuration name="Run newtype" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package newtype --bin newtype" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/newtype" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run operate_override" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package operate_override --bin operate_override" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/operate_override" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run pattern" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package pattern --bin pattern" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_19/pattern" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run super_trait" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package super_trait --bin super_trait" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/super_trait" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run unsafe_superpower" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package unsafe_superpower --bin unsafe_superpower" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/The_Rust_Programming_Language/chapter_20/unsafe_superpower" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -467,11 +598,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run blog" />
-        <item itemvalue="Cargo.Run result" />
-        <item itemvalue="Cargo.Run gui" />
-        <item itemvalue="Cargo.Run Cell" />
-        <item itemvalue="Cargo.Run mutex" />
+        <item itemvalue="Cargo.Run newtype" />
+        <item itemvalue="Cargo.Run super_trait" />
+        <item itemvalue="Cargo.Run disambiguation" />
+        <item itemvalue="Cargo.Run advanced_trait" />
+        <item itemvalue="Cargo.Run operate_override" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +658,10 @@
       <workItem from="1761474381106" duration="4928000" />
       <workItem from="1761542096333" duration="19538000" />
       <workItem from="1761621312427" duration="11354000" />
-      <workItem from="1761738937203" duration="6024000" />
+      <workItem from="1761738937203" duration="6228000" />
+      <workItem from="1761795738732" duration="10495000" />
+      <workItem from="1761814485661" duration="5660000" />
+      <workItem from="1761891831491" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="add 02.[guessing_game], 03.[basic_concept], 04.[ownership], 05.[borrow], 06.[slice]">
       <option name="closed" value="true" />
@@ -593,7 +727,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761569953830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add 31.[thread], 32.[mutex], 33.[gui], 34.[blog]">
+      <option name="closed" value="true" />
+      <created>1761745124775</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761745124775</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +761,8 @@
     <MESSAGE value="modify and optimize the 25th module [minigrep]" />
     <MESSAGE value="exchange the referenced book from [the rust programming language] to [rust course](https://course.rs) after finishing the chapter_14 of the former" />
     <MESSAGE value="add 4.4[智能指针] and 4.5[循环引用和自引用]" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 4.4[智能指针] and 4.5[循环引用和自引用]" />
+    <MESSAGE value="add 31.[thread], 32.[mutex], 33.[gui], 34.[blog]" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 31.[thread], 32.[mutex], 33.[gui], 34.[blog]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

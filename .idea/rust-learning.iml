@@ -58,6 +58,14 @@
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/blog/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/gui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_19/matching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_19/pattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/unsafe_superpower/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/disambiguation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/newtype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/operate_override/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/super_trait/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Box/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Drop/target" />
@@ -112,6 +120,14 @@
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/blog/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/gui/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_18/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_19/matching/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_19/pattern/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/unsafe_superpower/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/disambiguation/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/newtype/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/operate_override/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/super_trait/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
