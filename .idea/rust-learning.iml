@@ -66,6 +66,11 @@
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/newtype/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/operate_override/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/super_trait/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_function_closure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/hello_macro_derive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/macros/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Box/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Drop/target" />
@@ -128,6 +133,11 @@
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/newtype/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/operate_override/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/super_trait/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_function_closure/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/advanced_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/hello_macro_derive/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/macros/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
