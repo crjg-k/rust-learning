@@ -71,6 +71,8 @@
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/hello_macro_derive/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_9/InlineASM/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_21/hello/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/simplifid_control_flow/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Box/target" />
       <excludeFolder url="file://$MODULE_DIR$/chapter_15/Drop/target" />
@@ -138,6 +140,8 @@
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/hello_macro_derive/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/hello_macro/target" />
       <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_20/macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course/chapter4_9/InlineASM/target" />
+      <excludeFolder url="file://$MODULE_DIR$/The_Rust_Programming_Language/chapter_21/hello/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
